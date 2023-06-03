@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ComeToMyTown</string>
+
+    <string name="descp_hotel">
+        En Alejandría encontrarás unos alojamientos muy cómodos, ccon un presupuesto variado.
+        Desde $50.000 COP puedes acceder a una habitación con todas las comodidades necesarias.
+    </string>
 </resources>

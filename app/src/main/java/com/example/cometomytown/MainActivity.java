@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        song = MediaPlayer.create(this,R.raw.audiobg);
+        song = MediaPlayer.create(this,R.raw.aud_bg);
         song.start();
 
         //Timer Launch Song

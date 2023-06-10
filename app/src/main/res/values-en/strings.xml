@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ComeToMyTown</string>
+
+    <string name="descp_hotel">
+        In Alexandria, you will find very comfortable accommodations with a varied budget.
+        From $50,000 COP, you can access a room with all the necessary amenities.
+    </string>
+
+    <string name="optn1">Spanish</string>
+    <string name="optn2">English</string>
+    <string name="optn3">French</string>
+    <string name="optn4">About Us</string>
+
+</resources>

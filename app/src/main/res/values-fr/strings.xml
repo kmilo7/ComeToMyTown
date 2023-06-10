@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ComeToMyTown</string>
+
+    <string name="descp_hotel">
+        À Alexandrie, vous trouverez des hébergements très confortables avec des budgets variés.
+        À partir de 50 000 COP, vous pourrez accéder à une chambre offrant toutes les commodités nécessaires.
+    </string>
+
+    <string name="optn1">Espagnol</string>
+    <string name="optn2">Anglais</string>
+    <string name="optn3">Français</string>
+    <string name="optn4">Près de nous</string>
+</resources>

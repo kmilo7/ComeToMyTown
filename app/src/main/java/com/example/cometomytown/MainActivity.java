@@ -31,6 +31,6 @@ public class MainActivity extends AppCompatActivity {
             }
         };
         Timer timer = new Timer();
-        timer.schedule(startApp,15000);
+        timer.schedule(startApp,9000);
     }
 }

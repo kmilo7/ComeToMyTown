@@ -3,12 +3,16 @@ package com.example.cometomytown;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import java.util.Locale;
 
 public class Home extends AppCompatActivity {
 
@@ -63,19 +67,39 @@ public class Home extends AppCompatActivity {
 
         switch (itemSelect) {
             case (R.id.opt1):
-                Toast.makeText(this, "Español select", Toast.LENGTH_SHORT).show();
+                this.chgLang("es");
+                Intent intSpa = new Intent(Home.this,Home.class);
+                startActivity(intSpa);
                 break;
             case (R.id.opt2):
-                Toast.makeText(this, "Inglés select", Toast.LENGTH_SHORT).show();
+                this.chgLang("en");
+                Intent intEng = new Intent(Home.this,Home.class);
+                startActivity(intEng);
                 break;
             case (R.id.opt3):
-                Toast.makeText(this, "Francés select", Toast.LENGTH_SHORT).show();
+                this.chgLang("fr");
+                Intent intFre = new Intent(Home.this,Home.class);
+                startActivity(intFre);
                 break;
             case (R.id.opt4):
-                Toast.makeText(this, "Acerca de nosotros select", Toast.LENGTH_SHORT).show();
+                Intent intAbUs = new Intent(Home.this,AbUs.class);
+                startActivity(intAbUs);
                 break;
         }
         return super.onOptionsItemSelected(item);
     }
+    //Method for change the app language
 
+    public void chgLang(String lang){
+        //Create the LOCALE object for change the language
+        Locale locale = new Locale(lang);
+
+        //Establecemos the language setting in the phone
+        Resources reso = getResources();
+        Configuration config = reso.getConfiguration();
+        config.setLocale(locale);
+
+        //Update the phone setting
+        getBaseContext().getResources().updateConfiguration(config,getBaseContext().getResources().getDisplayMetrics());
+    }
 }

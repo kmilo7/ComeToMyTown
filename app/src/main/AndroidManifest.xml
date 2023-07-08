@@ -12,6 +12,9 @@
         android:theme="@style/Theme.ComeToMyTown"
         tools:targetApi="31">
         <activity
+            android:name=".ListHotel"
+            android:exported="false" />
+        <activity
             android:name=".AbUs"
             android:exported="false" />
         <activity

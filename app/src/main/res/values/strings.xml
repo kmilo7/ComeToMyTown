@@ -1,13 +1,23 @@
 <resources>
     <string name="app_name">ComeToMyTown</string>
 
-    <string name="descp_hotel">En Alejandría encontrarás unos alojamientos muy cómodos, ccon un presupuesto variado. Desde $50.000 COP puedes acceder a una habitación con todas las comodidades necesarias.</string>
+    <string name="btt_hot">Hoteles</string>
+
+    <string name="btt_res">Restaurantes</string>
+
+    <string name="btt_sitios">Sitios</string>
+
+    <string name="descp_hotel">En Alejandría encontrarás unos alojamientos muy cómodos, ccon un presupuesto variado. Desde $49.900 COP puedes acceder a una habitación con todas las comodidades necesarias.</string>
 
     <string name="descp_res">Al venir a Alejandría debes estar preparado para dejarte sorprender de los sabores de la región. Experimenta en tu paladar de los mejores sabores en Antioquia.</string>
 
     <string name="descp_sit">No te preocupes donde quedarte. Alejandría tiene hoteles, hostales, cabañas y lugares variados para acogerte. Ven con tu familia, pues hay espacio para todos.</string>
 
     <string name="about">Somos ComeToMyTown, responsables de que no te falta nada en cada aventura.Nos aseguramos que desde que llegas, hasta que sales de cada corregimiento, disfrutes cada segundo.</string>
+
+    <string name="btn_cont">Continuar</string>
+
+    <string name="nocost">Sin costo alguno...</string>
 
     <string name="optn1">Español</string>
     <string name="optn2">Inglés</string>

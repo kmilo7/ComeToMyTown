@@ -24,7 +24,7 @@
 
     <Button
         android:id="@+id/btt_hot"
-        android:text="  HOTELES"
+        android:text="@string/btt_hot"
         app:layout_constraintTop_toBottomOf="@id/logo"
         android:background="@drawable/btt_ppal"
         app:layout_constraintVertical_bias="0"
@@ -48,7 +48,7 @@
 
     <Button
         android:id="@+id/btt_res"
-        android:text="  RESTAURANTES"
+        android:text="@string/btt_res"
         app:layout_constraintTop_toBottomOf="@id/logo"
         android:background="@drawable/btt_ppal"
         app:layout_constraintVertical_bias="0"
@@ -72,7 +72,7 @@
 
     <Button
         android:id="@+id/btt_sitios"
-        android:text="  SITIOS"
+        android:text="@string/btt_sitios"
         app:layout_constraintTop_toBottomOf="@id/logo"
         android:background="@drawable/btt_ppal"
         app:layout_constraintVertical_bias="0"

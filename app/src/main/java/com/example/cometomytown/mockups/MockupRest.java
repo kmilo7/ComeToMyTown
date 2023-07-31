@@ -1,18 +1,16 @@
 package com.example.cometomytown.mockups;
 
-public class MockupHotel{
+public class MockupRest{
     private int photo;
     private String nom;
     private String price;
-    private String desc;
 
-    public MockupHotel(int photo, String nom, String price, String desc) {
+
+    public MockupRest(int photo, String nom, String price) {
         this.photo = photo;
         this.nom = nom;
         this.price = price;
-        this.desc = desc;
     }
-
     public int getPhoto() {
         return photo;
     }
@@ -34,13 +32,5 @@ public class MockupHotel{
 
     public void setPrice(String price) {
         this.price = price;
-    }
-
-    public String getDesc() {
-        return desc;
-    }
-
-    public void setDesc(String desc) {
-        this.desc = desc;
     }
 }

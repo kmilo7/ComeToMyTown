@@ -2,13 +2,23 @@
 <resources>
     <string name="app_name">ComeToMyTown</string>
 
-    <string name="descp_hotel">In Alexandria, you will find very comfortable accommodations with a varied budget. From $50,000 COP, you can access a room with all the necessary amenities.</string>
+    <string name="btt_hot">Hotels</string>
+
+    <string name="btt_res">Restaurants</string>
+
+    <string name="btt_sitios">Places</string>
+
+    <string name="descp_hotel">In Alexandria, you will find very comfortable accommodations with a varied budget. From $49.900 COP, you can access a room with all the necessary amenities.</string>
 
     <string name="descp_res">When coming to Alexandria, you must be prepared to be amazed by the flavors of the region. Experience the finest flavors in Antioquia tantalizing your taste buds.</string>
 
-    <string name="descp_sit">Dont worry about where to stay. Alexandria has hotels, hostels, cabins, and various places to accommodate you. Come with your family, as there is space for everyone. </string>
+    <string name="descp_sit">Don t worry about where to stay. Alexandria has hotels, hostels, cabins, and various places to accommodate you. Come with your family, as there is space for everyone. </string>
 
     <string name="about">We are ComeToMyTown, responsible for ensuring that you lack nothing in every adventure. We make sure that from the moment you arrive until you leave each township, you enjoy every second.</string>
+
+    <string name="btn_cont">Continue</string>
+
+    <string name="nocost">At no cost...</string>
 
     <string name="optn1">Spanish</string>
     <string name="optn2">English</string>

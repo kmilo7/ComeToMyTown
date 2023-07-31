@@ -23,7 +23,7 @@
 
     <Button
         android:id="@+id/go_sit"
-        android:text="Continuar"
+        android:text="@string/btn_cont"
         android:background="@drawable/btt_ppal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"

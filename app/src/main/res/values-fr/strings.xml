@@ -2,13 +2,23 @@
 <resources>
     <string name="app_name">ComeToMyTown</string>
 
-    <string name="descp_hotel">À Alexandrie, vous trouverez des hébergements très confortables avec des budgets variés. À partir de 50.000 COP, vous pourrez accéder à une chambre offrant toutes les commodités nécessaires.</string>
+    <string name="btt_hot">Hôtels</string>
+
+    <string name="btt_res">Restaurants</string>
+
+    <string name="btt_sitios">Sites</string>
+
+    <string name="descp_hotel">À Alexandrie, vous trouverez des hébergements très confortables avec des budgets variés. À partir de $ 49.900 COP, vous pourrez accéder à une chambre offrant toutes les commodités nécessaires.</string>
 
     <string name="descp_res">En venant à Alexandrie, vous devez être prêt à être surpris par les saveurs de la région. Expérimentez les meilleurs goûts sur votre palais en Antioquia.</string>
 
     <string name="descp_sit">Ne vous inquiétez pas de lendroit où séjourner. Alexandrie propose des hôtels, des auberges, des cabanes et divers lieux pour vous accueillir. Venez avec votre famille, car il y a de la place pour tout le monde.</string>
 
     <string name="about">Nous sommes ComeToMyTown, responsables de veiller à ce que vous ne manquiez de rien à chaque aventure. Nous nous assurons que dès votre arrivée jusquà votre départ de chaque hameau, vous profitez de chaque seconde.</string>
+
+    <string name="btn_cont">Continuer</string>
+
+    <string name="nocost">Sans aucun coût...</string>
 
     <string name="optn1">Espagnol</string>
     <string name="optn2">Anglais</string>

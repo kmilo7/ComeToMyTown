@@ -66,22 +66,5 @@
         android:layout_marginHorizontal="15dp"
         />
 
-    <TextView
-        android:id="@+id/descrest"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/pricerest"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.05"
-        android:text="Solo disfruta"
-
-        android:textColor="@color/black"
-        android:textStyle="italic"
-        android:textAlignment="center"
-        android:textSize="25dp"
-        android:layout_marginHorizontal="15dp"
-        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
